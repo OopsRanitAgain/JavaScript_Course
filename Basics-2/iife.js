@@ -12,3 +12,9 @@ dbConnect();
 (function(){
     console.log("Database Connected and Function called Through IIFE");
 })();
+
+//IIFE with parameters
+((a,b) =>{
+    console.log(a+b);
+})(10,20);
+
